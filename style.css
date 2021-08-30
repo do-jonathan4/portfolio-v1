@@ -31,10 +31,10 @@ html {
 }
 
 .page-header {
-    background-color: darkslategrey;
+    background-color: darkslategray;
 }
 
-.nav-item {
+.nav-item, .nav-item-title {
     text-decoration: none;
 }
 
@@ -43,11 +43,10 @@ html {
 }
 
 .hero-image {
-    background-image: url(assets/lfz-logo.png);
-    background-color: #303b43;
+    background-image: url(assets/cover.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto 80%;
+    background-size: auto;
     height: 350px;
 }
 
@@ -69,7 +68,6 @@ html {
 
 .text-align-reset {
     text-align: initial;
-
 }
 
 .tech-section {
@@ -78,4 +76,9 @@ html {
 
 .projects-section {
     background-color: snow;
+}
+
+.pd {
+    padding-left: 5%;
+    padding-right: 5%;
 }
